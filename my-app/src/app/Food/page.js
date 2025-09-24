@@ -1,6 +1,8 @@
 "use client"; 
 import { useEffect, useState } from "react";
-import FoodCard from "../../components/FoodCard";
+import FoodCard from "@/components/FoodCard";
+
+
 
 export default function FoodPage() {
   const [foods, setFoods] = useState([]);
